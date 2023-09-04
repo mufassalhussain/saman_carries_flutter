@@ -92,6 +92,7 @@ class SuffixMainTextField extends StatelessWidget {
 class ShopTextField extends StatelessWidget {
   final TextEditingController? controller;
   final String? hintText;
+  // ignore: prefer_typing_uninitialized_variables
   final suffixIcon;
   final TextInputType keyboardType;
 
@@ -128,7 +129,7 @@ class ShopTextField extends StatelessWidget {
             right: 45,
             child: Text(
               hintText!,
-              style: TextStyle(fontSize: 30),
+              style: const TextStyle(fontSize: 30),
             ),
           ),
           Positioned(

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:saman_carries_flutter/screen/add_order/add_order_main.dart';
-import 'package:saman_carries_flutter/screen/enter_assets.dart';
 import 'configs/size_configs.dart';
+import 'utils/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,23 +15,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return MaterialApp(
-      localizationsDelegates: const [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
-      supportedLocales: const [
-        Locale('ar', 'SA'),
-      ],
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        fontFamily: 'urduFonts',
-        useMaterial3: true,
-      ),
-      routes: {
-        AddOrder.routeName: (context) => const AddOrder(),
-        EnterAssets.routeName: (context) => const EnterAssets(),
-      },
-    );
+        localizationsDelegates: const [
+          GlobalCupertinoLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
+        supportedLocales: const [
+          Locale('ar'),
+        ],
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          fontFamily: 'urduFonts',
+          useMaterial3: true,
+        ),
+        routes: Routes.routes);
   }
 }
 

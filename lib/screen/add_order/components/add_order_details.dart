@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../../configs/size_configs.dart';
 import '../../../themes/colors.dart';
 import '../../../widgets/text_field_widget.dart';

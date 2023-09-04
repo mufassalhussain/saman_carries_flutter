@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saman_carries_flutter/screen/add_order/components/add_oder_items.dart';
 import 'package:saman_carries_flutter/screen/add_order/components/add_order_shop_details.dart';
 
 import 'package:saman_carries_flutter/themes/colors.dart';
@@ -28,6 +29,7 @@ class _AddOrderState extends State<AddOrder> {
           children: [
             AddOrderDetails(),
             AddOrderShopDetails(),
+            AddOrderItems(),
           ],
         ),
       )),

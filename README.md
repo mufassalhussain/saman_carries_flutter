@@ -4,6 +4,8 @@
 
 Flutter  3.10.6 or greater for required for running this app 
  
+Do flutter pub get before run this app
+
 Video sample :
 https://github.com/mufassalhussain/saman_carries_flutter/assets/79256743/18f55269-a677-4531-8af7-ead7ccda2d7b
 

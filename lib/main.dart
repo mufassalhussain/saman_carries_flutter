@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         supportedLocales: const [
           Locale('ar'),
         ],
-        title: 'Flutter Demo',
+        title: 'Saman Carries',
         theme: ThemeData(
           fontFamily: 'urduFonts',
           useMaterial3: true,

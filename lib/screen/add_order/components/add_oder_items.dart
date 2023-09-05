@@ -100,9 +100,12 @@ class _AddOrderItemsState extends State<AddOrderItems> {
         InkWell(
           onTap: () {},
           child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(5),
+              ),
               height: getHeight(35),
               width: getWidth(200),
-              color: Colors.white,
               child: const Text(
                 'آرڈر درج کریں',
                 textAlign: TextAlign.center,

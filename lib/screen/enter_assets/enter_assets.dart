@@ -24,7 +24,7 @@ class _EnterAssetsState extends State<EnterAssets> {
             const EnterAssetsUserDetailss(),
             const EnterAssetsItems(),
             const SizedBox(
-              height: 10,
+              height: 5,
             ),
             Container(
               width: getWidth(300),
@@ -42,7 +42,7 @@ class _EnterAssetsState extends State<EnterAssets> {
               ),
             ),
             const SizedBox(
-              height: 10,
+              height: 5,
             ),
             InkWell(
               onTap: () {
@@ -51,7 +51,10 @@ class _EnterAssetsState extends State<EnterAssets> {
               child: Container(
                   height: getHeight(55),
                   width: getWidth(110),
-                  color: AppColors.mainBackgroundClr,
+                  decoration: BoxDecoration(
+                    color: AppColors.mainBackgroundClr,
+                    borderRadius: BorderRadius.circular(5),
+                  ),
                   child: const Text(
                     'واپس',
                     textAlign: TextAlign.center,

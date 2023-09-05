@@ -23,9 +23,12 @@ class _AddOrderItemsState extends State<AddOrderItems> {
             Navigator.of(context).pushNamed(EnterAssets.routeName);
           },
           child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(5),
+              ),
               height: getHeight(35),
               width: getWidth(200),
-              color: Colors.white,
               child: const Text(
                 'سامان داخل کریں',
                 textAlign: TextAlign.center,
@@ -36,23 +39,24 @@ class _AddOrderItemsState extends State<AddOrderItems> {
               )),
         ),
         SizedBox(
-          height: getHeight(20),
+          height: getHeight(10),
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              width: getWidth(68),
-            ),
+            SizedBox(width: getWidth(88)),
             Expanded(
               child: Row(
                 children: [
                   InkWell(
                     onTap: () {},
                     child: Container(
+                      decoration: BoxDecoration(
+                        color: AppColors.textField2Clr,
+                        borderRadius: BorderRadius.circular(5),
+                      ),
                       height: getHeight(35),
                       width: getWidth(200),
-                      color: AppColors.textField2Clr,
                     ),
                   ),
                   SizedBox(
@@ -69,7 +73,7 @@ class _AddOrderItemsState extends State<AddOrderItems> {
           ],
         ),
         SizedBox(
-          height: getHeight(20),
+          height: getHeight(10),
         ),
         Container(
           width: getWidth(300),

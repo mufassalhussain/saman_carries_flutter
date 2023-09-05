@@ -80,6 +80,9 @@ flutter:
     - family: urduFonts
       fonts:
         - asset: assets/fonts/Jameel Noori Nastaleeq Regular.ttf
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
 
     
   #   - family: Trajan Pro

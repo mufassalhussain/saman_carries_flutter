@@ -22,17 +22,18 @@ class _EnterAssetsUserDetailssState extends State<EnterAssetsUserDetailss> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget.mainText('عمیر اقبال', color: Colors.black),
-              TextWidget.mainText('00000', color: Colors.black),
+              TextWidget.mainText('00000',
+                  color: Colors.black, fontFamily: 'poppins'),
               TextWidget.mainText('حسن گلاس', color: Colors.black),
             ],
           ),
         ),
         const Padding(
-          padding: EdgeInsets.fromLTRB(20.0, 5, 20, 0),
+          padding: EdgeInsets.fromLTRB(20.0, 0, 20, 0),
           child: Divider(color: Colors.black),
         ),
         Padding(
-          padding: const EdgeInsets.fromLTRB(20.0, 5, 20, 20),
+          padding: const EdgeInsets.fromLTRB(20.0, 0, 20, 5),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

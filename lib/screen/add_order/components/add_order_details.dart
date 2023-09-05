@@ -22,19 +22,19 @@ class _AddOrderDetailsState extends State<AddOrderDetails> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget.mainText('عمیر اقبال'),
-              TextWidget.mainText('00000'),
+              TextWidget.mainText('00000', fontFamily: 'poppins'),
               TextWidget.mainText('حسن گلاس')
             ],
           ),
         ),
         const Padding(
-          padding: EdgeInsets.fromLTRB(20.0, 5, 20, 0),
+          padding: EdgeInsets.fromLTRB(20.0, 0, 20, 0),
           child: Divider(
             color: AppColors.fontClr,
           ),
         ),
         Padding(
-          padding: const EdgeInsets.fromLTRB(20.0, 5, 20, 0),
+          padding: const EdgeInsets.fromLTRB(20.0, 0, 20, 0),
           child: Row(
             children: [
               Column(
@@ -49,20 +49,20 @@ class _AddOrderDetailsState extends State<AddOrderDetails> {
                 child: Column(
                   children: [
                     SizedBox(
-                      height: getHeight(10),
+                      height: getHeight(5),
                     ),
                     const MainTextField(),
                     SizedBox(
-                      height: getHeight(25),
+                      height: getHeight(15),
                     ),
                     const MainTextField(),
                     SizedBox(
-                      height: getHeight(25),
+                      height: getHeight(15),
                     ),
                     SuffixMainTextField(
                       suffixIcon: Icon(
                         Icons.arrow_drop_down,
-                        size: getWidth(40),
+                        size: getWidth(30),
                       ),
                     ),
                   ],

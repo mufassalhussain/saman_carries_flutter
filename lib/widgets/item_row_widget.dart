@@ -19,7 +19,7 @@ class ReusableItemRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 7),
+      padding: const EdgeInsets.only(top: 4.5),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

@@ -16,10 +16,10 @@ class _AddOrderShopDetailsState extends State<AddOrderShopDetails> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.fromLTRB(20.0, 5, 20, 0),
+        padding: const EdgeInsets.fromLTRB(20.0, 0, 20, 0),
         child: Column(children: [
           SizedBox(
-            height: getHeight(10),
+            height: getHeight(0),
           ),
           Row(
             children: [
@@ -49,7 +49,7 @@ class _AddOrderShopDetailsState extends State<AddOrderShopDetails> {
             ],
           ),
           Padding(
-              padding: const EdgeInsets.fromLTRB(20.0, 5, 20, 0),
+              padding: const EdgeInsets.fromLTRB(20.0, 0, 20, 0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -73,7 +73,7 @@ class _AddOrderShopDetailsState extends State<AddOrderShopDetails> {
                 ],
               )),
           const Padding(
-              padding: EdgeInsets.fromLTRB(20.0, 15, 20, 0),
+              padding: EdgeInsets.fromLTRB(20.0, 5, 20, 0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saman_carries_flutter/configs/size_configs.dart';
 
 import '../themes/colors.dart';
 
@@ -9,7 +10,7 @@ class TextWidget {
       style: TextStyle(
         color: color ?? AppColors.fontClr,
         fontFamily: fontFamily ?? 'urduFonts',
-        fontSize: 40,
+        fontSize: getWidth(30),
       ),
     );
   }

@@ -77,7 +77,7 @@ class _AddOrderItemsState extends State<AddOrderItems> {
         ),
         Container(
           width: getWidth(300),
-          height: getHeight(120),
+          height: getHeight(140),
           decoration: BoxDecoration(
             color: AppColors.fillassetsClr,
             borderRadius: BorderRadius.circular(5),
@@ -95,7 +95,7 @@ class _AddOrderItemsState extends State<AddOrderItems> {
           ),
         ),
         SizedBox(
-          height: getHeight(10),
+          height: getHeight(30),
         ),
         InkWell(
           onTap: () {},
